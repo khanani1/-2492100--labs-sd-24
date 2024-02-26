@@ -1,6 +1,6 @@
 header{
     display:flex;
-    background-color: rgb(61,61,61);
+    background-color: black;
     align-items: center;
 }
 
@@ -29,7 +29,7 @@ nav ul{
 
 
 footer{
-    background-color: rgb(61,61,61);
+    background-color: black;
     text-align: center;
     align-items: center;
     justify-content: center;
