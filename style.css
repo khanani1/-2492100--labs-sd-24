@@ -4,17 +4,35 @@ header{
     background-color: black;
 }
 
+.headerr{
+    padding-right: 50px;
+}
 .headers{
 font-size: 15px;
 color: white;
 margin: 30px;
 }
 
+nav li{
+    display: inline-block;
+    
+}
+
+nav ul{
+    float: right;
+}
+
+
 footer{
-    display: flex;
+
     background-color: black;
     text-align: center;
-}
+    align-items: center;
+    justify-content: center;}
+
+    .heading{
+        margin: 30px;
+    }
 
 .footers{
     color: white;
@@ -22,10 +40,33 @@ footer{
     text-align: center;
 }
 
-.section1{
-    align-items: center;
+
+
+.article{
+    
 }
 
-.section2{
+.section1{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main{
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+text-align: center;
+}
+h2{
+    text-align: center;
+}
+.section2{
+ display: flex;
+ align-items: center;
+    justify-content: center;
+
 }
