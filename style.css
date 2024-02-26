@@ -1,12 +1,17 @@
 header{
-
     display:flex;
     background-color: black;
+    align-items: center;
 }
 
-.headerr{
-    padding-right: 50px;
+#heading{
+    width: 50%;
+    color: white;
+    padding-left: 5%;
+    font-size: 20px;
 }
+
+
 .headers{
 font-size: 15px;
 color: white;
@@ -19,38 +24,36 @@ nav li{
 }
 
 nav ul{
-    float: right;
+    justify-content: flex-end;
 }
 
 
 footer{
-
     background-color: black;
     text-align: center;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
 
     .heading{
         margin: 30px;
     }
 
-.footers{
+#footer-heading{
     color: white;
     font-size: 15px;
-    text-align: center;
 }
 
-
-
-.article{
-    
+.article1{
+    border: 1px solid grey;
+    width: 610px;
+    text-align: center;
 }
 
 .section1{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 main{
@@ -61,12 +64,23 @@ main{
 h1{
 text-align: center;
 }
+
 h2{
     text-align: center;
 }
+
+img{
+    width: 600px;
+    height: 400px;
+}
+
+p{
+    text-align: center;
+}
+
 .section2{
- display: flex;
- align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 
 }
