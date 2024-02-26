@@ -21,3 +21,11 @@ footer{
     font-size: 15px;
     text-align: center;
 }
+
+.section1{
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+}
